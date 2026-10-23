@@ -16,7 +16,7 @@ from typing import Any
 from openai import OpenAI
 
 
-DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-flash"
+DEFAULT_DEEPSEEK_MODEL = "deepseek-flash"
 MODEL_API_KEY_ENV_NAMES = ("DEEPSEEK_API_KEY", "ARK_API_KEY", "VOLCANO_API_KEY", "VOLCENGINE_API_KEY")
 VOLCANO_MODEL = os.getenv(
     "MODEL_INTERPRET_NAME",
